@@ -1,2 +1,2 @@
 # portfolio-website-template
-Template for a responsive portfolio landing page made with HTML and CSS.
+Template for a responsive portfolio landing page in HTML and CSS.
