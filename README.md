@@ -1,4 +1,4 @@
-# Responsive Landing Page
+# Responsive Website Template
 
 See the project here https://alexpresthus.github.io/portfolio-website-template/
 
