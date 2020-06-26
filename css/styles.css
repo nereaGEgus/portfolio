@@ -154,13 +154,13 @@ p:last-of-type {
 }
 
 .button-accent {
-  color: #da6b4f;
-  border-color: #da6b4f;
+  color: #fc6600;
+  border-color: #fc6600;
 }
 
 .button-accent:hover,
 .button-accent:focus {
-  background: #da6b4f;
+  background: #fc6600;
   color: #232428;
 }
 
@@ -172,7 +172,7 @@ p:last-of-type {
 .button-dark:hover,
 .button-dark:focus {
   background: #232428;
-  color: #da6b4f;
+  color: #fc6600;
 }
 
 
@@ -256,7 +256,7 @@ nav a:focus{
 }
 
 .home-about-textbox h1 {
-  color: #da6b4f;
+  color: #fc6600;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -364,7 +364,7 @@ nav a:focus{
 ******************** */
 
 .cta {
-  background-color: #da6b4f;
+  background-color: #fc6600;
   padding: 6em 0;
 }
 
