@@ -97,16 +97,18 @@ p:last-of-type {
 }
 
 .title {
-  font-size: 2.5em;
+  font-size: 1.5em;
   margin-bottom: 1.5em;
-  font-weight: 900;
+  font-weight: 700;
   margin-top: 1em;
+  color: #FFFFFF;
 }
 
 .title span{
   font-weight: 300;
   display: block;
   font-size: .9em;
+  color: #FFFFFF;
 }
 
 .title-cta {
