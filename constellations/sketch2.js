@@ -54,7 +54,8 @@ class Particle {
 let particles = [];
 
 function setup() {
-  createCanvas(720, 400);
+  const canvas = createCanvas(windowWidth, windowHeight);
+	canvas.parent("home-back");
   for(let i = 0;i<width/5;i++){
     particles.push(new Particle());
   }
