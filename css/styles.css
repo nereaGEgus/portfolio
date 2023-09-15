@@ -97,16 +97,20 @@ p:last-of-type {
 }
 
 .title {
-  font-size: 2.5em;
+  font-size: 1.5em;
   margin-bottom: 1.5em;
-  font-weight: 900;
+  font-weight: 700;
   margin-top: 1em;
+  color: #FFFFFF;
+  position: relative;
 }
 
 .title span{
   font-weight: 300;
   display: block;
   font-size: .9em;
+  color: #FFFFFF;
+  position: relative;
 }
 
 .title-cta {
@@ -227,11 +231,13 @@ nav a:focus{
 ******************** */
 
 .home-hero{
-  background-image: url(../img/Image18.png);
-  background-size: cover;
-  background-position: center;
-  padding: 10em 0;
-  color: #FFF;
+  html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
 }
 
 @media (min-width: 60rem) {
@@ -282,8 +288,8 @@ nav a:focus{
   }
 
   .home-about {
-    background-image: url(../img/who-am-i.jpg);
-    background-repeat: no-repeat;
+   /* background-image: url(../img/who-am-i.jpg);
+    background-repeat: no-repeat;*/
     background-size: cover;
     background-position: center;
     padding-bottom: 10em;
@@ -376,4 +382,13 @@ footer {
   color: #FFF;
   text-align: left;
   padding: 5em 0;
+}
+
+/* Home-back
+******************** */
+#home-back{
+  position: absolute;
+  width: 100 vw;
+  height: 100%;
+  inset: 0 auto auto 0;
 }
