@@ -51,22 +51,22 @@ class Particle {
 }
 
 // an array to add multiple particles
-let particles = [];
+let prtls = [];
 
 function setup() {
   const canvas = createCanvas(windowWidth, windowHeight);
 	canvas.parent("home-back");
   for(let i = 0;i<width/4;i++){
-    particles.push(new Particle());
+    prtls.push(new Particle());
   }
 }
 
 function draw() {
   background('#0f0f0f');
-  for(let i = 0;i<particles.length;i++) {
-    particles[i].createParticle();
-    particles[i].moveParticle();
-		particles[i].attract(mouseX,mouseY);
-    particles[i].joinParticles(particles.slice(i));
+  for(let i = 0;i<prtls.length;i++) {
+    prtls[i].createParticle();
+    prtls[i].moveParticle();
+		prtls[i].attract(mouseX,mouseY);
+    prtls[i].joinParticles(prtls.slice(i));
   }
 }
