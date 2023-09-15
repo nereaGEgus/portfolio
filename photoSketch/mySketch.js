@@ -1,4 +1,4 @@
-let prtls1 = particles;
+
 var img = []
 var n, s, maxR;
 var indexImg = 0;
@@ -14,6 +14,7 @@ function setup() {
 	s = 10;
 	maxR = width;
 	
+	particles = [];
 	
 	img.push(loadImage('nerea.jpg'));
 	//img.push(loadImage('Autorretrato - Vicent Van Gogh.png'));
@@ -26,13 +27,13 @@ function draw() {
 	noStroke();
 	
 	if(s > 1) {
-		if(prtls1.length != 0) {
-			for(let i = 0; i < prtls1.length; i++) {
-				var p = prtls1[i];
+		if(particles.length != 0) {
+			for(let i = 0; i < particles.length; i++) {
+				var p = particles[i];
 				p.show();
 				p.move();
 				
-				if(p.isDead()) prtls1.splice(i, 1);
+				if(p.isDead()) particles.splice(i, 1);
 			}
 		} else {
 			s -= 2;
@@ -43,9 +44,9 @@ function draw() {
 
 function initParticles() {	
 	for(let i = 0; i < n; i++) {
-		prtls1.push(new Particle(maxR, s));
+		particles.push(new Particle(maxR, s));
 		
-		var p = prtls1[i];
+		var p = particles[i];
 		var x = int(map(p.pos.x, -maxR, maxR, 1, img[indexImg].width));
     var y = int(map(p.pos.y, -maxR, maxR, 2, img[indexImg].height));
 		p.c = img[indexImg].get(x, y);
