@@ -4,20 +4,22 @@ var n, s, maxR;
 var indexImg = 0;
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	const canvas = createCanvas(windowWidth, windowHeight);
+	canvas.parent("home-about");
+
 	background("#000000");
 	smooth();
 	
 	n = 1000;
 	s = 10;
-	maxR = height/2 - height/20;
+	maxR = width;
 	
 	particles = [];
 	
-	img.push(loadImage('Las amapolas - Claude Monet.png'));
-	img.push(loadImage('Autorretrato - Vicent Van Gogh.png'));
-	img.push(loadImage('La lechera de burdeos - Francisco de Goya.jpg'));
-	img.push(loadImage('Muchacho mirando una aparicion - Francisco de Goya.png'));
+	img.push(loadImage('nerea.jpg'));
+	//img.push(loadImage('Autorretrato - Vicent Van Gogh.png'));
+	//img.push(loadImage('La lechera de burdeos - Francisco de Goya.jpg'));
+	//img.push(loadImage('Muchacho mirando una aparicion - Francisco de Goya.png'));
 }
 
 function draw() {
@@ -51,10 +53,10 @@ function initParticles() {
 	}
 }
 
-function mousePressed() {
-	indexImg = (indexImg + 1) % img.length;
-	setup();
-}
+//function mousePressed() {
+//	indexImg = (indexImg + 1) % img.length;
+//	setup();
+//}
 
 class Particle {
   
