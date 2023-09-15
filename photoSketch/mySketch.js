@@ -10,8 +10,8 @@ function setup() {
 	background("#000000");
 	smooth();
 	
-	n = 1000;
-	s = 10;
+	n = 900;
+	s = 9;
 	maxR = width;
 	
 	particles = [];
