@@ -1,4 +1,4 @@
-var particles;
+//var particles;
 var img = []
 var n, s, maxR;
 var indexImg = 0;
