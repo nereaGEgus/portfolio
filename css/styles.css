@@ -282,7 +282,7 @@ canvas {
   }
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 30rem) {
   h1 {
     font-size: 2.5rem;
   }
@@ -291,7 +291,7 @@ canvas {
     background-image: url(../img/p5nerea.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     padding-bottom: 10em;
   }
 
