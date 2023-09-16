@@ -296,7 +296,7 @@ canvas {
   }*/
 
   #home-about {
-    background-size: cover;
+    background-size: relative;
     background-position: center;
     padding-bottom: 10em;
   }

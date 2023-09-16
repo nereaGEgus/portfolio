@@ -1,7 +1,7 @@
 var img;
 
 function preload() {
-  img = loadImage("nerea4cp.png");
+  img = loadImage("./photoPixels/nerea4cp.png");
 }
 
 function setup() {
