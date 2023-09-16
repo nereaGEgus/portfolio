@@ -5,7 +5,7 @@ function preload() {
 }
 
 function setup() {
-  const canvas = createCanvas(img.width3/2, img.height/2);
+  const canvas = createCanvas((img.width3/2) , (img.height/2));
   canvas.parent("home-about");
   noLoop();
 }
