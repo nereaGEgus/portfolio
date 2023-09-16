@@ -296,6 +296,7 @@ canvas {
   }*/
 
   #home-about {
+    margin-top: 10em;
     background-size: absolute;
     background-position: center;
     padding-bottom: 0em;
