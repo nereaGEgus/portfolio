@@ -296,9 +296,9 @@ canvas {
   }*/
 
   #home-about {
-    background-size: relative;
+    background-size: absolute;
     background-position: center;
-    padding-bottom: 10em;
+    padding-bottom: 0em;
   }
 
   .home-about-textbox {
