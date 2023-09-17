@@ -291,7 +291,7 @@ canvas {
     background-image: url(../img/pixelsNerea.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: center;
     padding-bottom: 20em;
   }
 
