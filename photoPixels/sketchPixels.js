@@ -25,7 +25,7 @@ function draw() {
       var pix = img.pixels[(y*img.width+x)*4];
       fill(pix);
       noStroke();
-      ellipse(x, y, 6, 6);
+      ellipse(x, y, 7, 7);
     }
   }
 }
