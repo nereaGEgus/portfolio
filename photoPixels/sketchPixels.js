@@ -6,7 +6,7 @@ function preload() {
 
 function setup() {
   const canvas = createCanvas((1000) , (500));
-  canvas.parent("home-about");
+  canvas.parent("home-new");
   noLoop();
 }
 
