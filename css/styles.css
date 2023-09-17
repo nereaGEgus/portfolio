@@ -282,7 +282,7 @@ canvas {
   }
 }
 
-@media (min-width: 30rem) {
+@media (min-width: 50rem) {
   h1 {
     font-size: 2.5rem;
   }
@@ -292,7 +292,8 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-bottom: 20em;
+    padding-top: 20em;
+    height:80%;
   }
 
   .home-about-textbox {
