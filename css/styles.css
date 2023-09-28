@@ -290,8 +290,8 @@ canvas {
  .home-about {
     /* background-image: url(../img/pixelsNerea.png);
     background-repeat: no-repeat;
-    background-size: cover;*/
-    background-position: center;
+    background-size: cover;
+    background-position: center;*/
     height:70%;
     margin-top: 1em;
   }
