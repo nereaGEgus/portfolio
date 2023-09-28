@@ -301,7 +301,7 @@ canvas {
     padding: 7em;
     outline-offset: -4em;
     margin-left: -2.5%;
-    top: -5em;
+    top: 2em;
     text-align: left;
     box-shadow: 0 0 3em 0 rgba(0,0,0,.3);
   }
