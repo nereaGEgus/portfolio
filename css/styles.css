@@ -114,7 +114,7 @@ p:last-of-type {
 }
 
 .title-cta {
-  margin: 0 0 .5em;
+  margin: 0 0 .8rem;
 }
 
 .unstyled-list {
@@ -379,7 +379,7 @@ canvas {
 ******************** */
 
 footer {
-  background: #232428;
+  background: #000000;
   color: #FFF;
   text-align: left;
   padding: 5em 0;
