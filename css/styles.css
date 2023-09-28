@@ -82,7 +82,7 @@ footer::after {
 
 h1 {
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: .8rem;
   margin-top: 0;
 }
 
@@ -165,17 +165,17 @@ p:last-of-type {
 .button-accent:hover,
 .button-accent:focus {
   background: #fc6600;
-  color: #232428;
+  color: #000000;
 }
 
 .button-dark {
-  color: #232428;
-  border-color: #232428;
+  color: #000000;
+  border-color: #000000;
 }
 
 .button-dark:hover,
 .button-dark:focus {
-  background: #232428;
+  background: #000000;
   color: #fc6600;
 }
 
@@ -251,7 +251,7 @@ canvas {
 ******************** */
 
 .home-about-textbox {
-  background-color: #26272b;
+  background-color: #000000;
   padding: 3em;
   width: 100vw;
   margin-left: -2.5vw;
@@ -267,7 +267,7 @@ canvas {
   left: 50%;
   transform: translateX(-50%);
   top: .75em;
-  background: #26272b;
+  background: #000000;
   padding: 0 .25em;
 }
 
@@ -371,7 +371,7 @@ canvas {
 ******************** */
 
 .cta {
-  background-color: #fc6600;
+  background-color: #000000;
   padding: 6em 0;
 }
 
