@@ -293,7 +293,7 @@ canvas {
     background-size: cover;
     background-position: center;*/
     height:70%;
-    margin-top: 1em;
+    
   }
 
   .home-about-textbox {
@@ -301,7 +301,7 @@ canvas {
     padding: 7em;
     outline-offset: -4em;
     margin-left: -2.5%;
-    top: 2em;
+    top: 1em;
     text-align: left;
     box-shadow: 0 0 3em 0 rgba(0,0,0,.3);
   }
