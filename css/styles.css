@@ -292,7 +292,7 @@ canvas {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    height:70%;
+    height:100%;
   
   }
 
@@ -317,7 +317,7 @@ canvas {
 ******************** */
 
 .portfolio {
-  margin: 3em 0 0;
+  margin: 0 0 0;
 }
 
 .port-item {
