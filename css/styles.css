@@ -293,7 +293,7 @@ canvas {
     background-size: cover;
     background-position: center;
     height:70%;
-    
+    width: 150%;
   }
 
   .home-about-textbox {
