@@ -267,7 +267,7 @@ canvas {
   left: 50%;
   transform: translateX(-50%);
   top: .75em;
-  background: #00000000;
+  background: #000000;
   padding: 0 .25em;
 }
 
