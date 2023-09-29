@@ -18,8 +18,8 @@ img {
 }
 
 .container {
-  width: 95%;
-  max-width: 70em;
+ /* width: 95%;
+  max-width: 70em;*/
   margin: 0 auto;
 }
 
@@ -251,7 +251,7 @@ canvas {
 ******************** */
 
 .home-about-textbox {
-  background-color: #000000;
+  background-color: #00000000;
   padding: 3em;
   width: 100vw;
   margin-left: -2.5vw;
@@ -290,10 +290,10 @@ canvas {
  .home-about {
     background-image: url(../img/Image5_000.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height:70%;
-    
+  
   }
 
   .home-about-textbox {
