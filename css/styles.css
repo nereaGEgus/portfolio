@@ -251,10 +251,9 @@ canvas {
 ******************** */
 
 .home-about-textbox {
-  background-color: #000000;
+  /*background-color: #000000;*/
   padding: 3em;
-  width: 100vw;
-  margin-left: -2.5vw;
+  width: 100%;
   outline: 2px solid #da6b4f;
   outline-offset: -2.5em;
   color: #FFF;
