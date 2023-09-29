@@ -290,7 +290,7 @@ canvas {
  .home-about {
     background-image: url(../img/Image6_000cropped1.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     height:100%;
   
